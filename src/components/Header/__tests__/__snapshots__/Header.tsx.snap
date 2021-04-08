@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Snapshot tests it matches the snapshot for basic use 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: [left] 1fr [right];
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.c1 {
+  grid-area: left;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c2 {
+  grid-area: right;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    Aligned to the left
+  </div>
+  <div
+    class="c2"
+  >
+    Aligned to the right
+  </div>
+</div>
+`;
